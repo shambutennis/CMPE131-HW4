@@ -1,7 +1,7 @@
 def double(func):
     def wrapper():
-        func()
+        print(func())
         print("Let’s try that again!")
-        func()
+        rrint(func())
     return wrapper
 
