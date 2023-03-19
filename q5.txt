@@ -1,0 +1,5 @@
+1. The value in variable a doesn't change after the function call
+2. The value in variable b does change after the function call
+3. The answers differ because for the first function call we are passing in an int which are immutable
+in python, so it is not possible to chnage the value of a even though it is passed by reference. However, because lists are mutable objects
+, and are passed by reference in python the value in b is incremented
